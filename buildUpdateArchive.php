@@ -1,16 +1,20 @@
 <?php
 
 /**
- * @copyright (C) 2025, 299Ko, based on code (2010-2021) 99ko https://github.com/99kocms/
+ * @copyright (C) 2025, 299KoEVO, based on code (2010-2021) 99ko https://github.com/99kocms/
  * @license https://www.gnu.org/licenses/gpl-3.0.en.html GPLv3
  * @author Maxence Cauderlier <mx.koder@gmail.com>
  *
- * @package 299Ko https://github.com/299Ko/299ko
+ * @package 299KoEVO https://github.com/NemStudio18/299koEVO
  */
 
-// need to be started in CLI, in versions folder
+// Need to be started in CLI, in repo_version folder
 // php buildUpdateArchive.php
 // Create an archive for manual update
+//
+// Prerequisites:
+// - execUpdate.php must have been run first to generate files.json
+// - config.php must be configured with correct KOPATH, version, and commit SHA1s
 
 require 'config.php';
 

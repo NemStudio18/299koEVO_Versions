@@ -1,19 +1,25 @@
 <?php
 
 /**
- * @copyright (C) 2025, 299Ko, based on code (2010-2021) 99ko https://github.com/99kocms/
+ * @copyright (C) 2025, 299KoEVO, based on code (2010-2021) 99ko https://github.com/99kocms/
  * @license https://www.gnu.org/licenses/gpl-3.0.en.html GPLv3
  * @author Maxence Cauderlier <mx.koder@gmail.com>
  *
- * @package 299Ko https://github.com/299Ko/299ko
+ * @package 299KoEVO https://github.com/NemStudio18/299koEVO
  */
 
 define('ROOT', '../');
 
-define('KOPATH', ROOT . '299ko-master/');
-define('VERSIONSPATH', ROOT . 'versions/');
+// Chemin vers le dépôt principal 299KoEVO (clone local)
+// À adapter selon votre structure locale
+define('KOPATH', ROOT . '299koEVO/');
+// Chemin vers le dépôt des versions (ce dossier)
+define('VERSIONSPATH', __DIR__ . '/');
 
-$version = '2.1.0';
+// Version à créer (ex: 1.0.1)
+$version = '1.0.1';
 
-$commitLastVersion =   'aa4cae7fe115aebf8a17b3e6a6bfc325c1f0f2fd'; //2.0.0
-$commitFutureVersion = '10ab59722e3cf472ea57acafd371c74d4dbc92f3';
+// SHA1 du commit de la dernière version (ex: 1.0.0)
+$commitLastVersion = 'SHA1_DU_COMMIT_1.0.0';
+// SHA1 du commit de la version à créer (ex: 1.0.1)
+$commitFutureVersion = 'SHA1_DU_COMMIT_1.0.1';
