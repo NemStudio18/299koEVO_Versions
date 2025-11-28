@@ -1,0 +1,24 @@
+# Fichiers de développement - ne pas commiter sur GitHub
+
+# Configuration locale (contient des chemins et SHA1 spécifiques)
+config.php
+
+# Scripts de développement (outils locaux uniquement)
+execUpdate.php
+buildUpdateArchive.php
+
+# Documentation locale (README_GITHUB.md sera sur GitHub à la place)
+readme.md
+
+# Fichiers temporaires générés
+update_to/
+changes.zip
+*.zip
+
+# Fichiers de log
+*.log
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
